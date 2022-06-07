@@ -1,12 +1,1 @@
-name: 'Dummy Action'
-on: [push]
-
-permissions:
-  contents: read
-
-jobs:
-  checkout:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'Checkout Repository'
-        uses: actions/checkout@v3
+../../dummy.yml
